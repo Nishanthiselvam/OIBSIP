@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("peace1.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    animation: fadeIn 2s;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.container {
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    animation: slideIn 2s;
+    flex-wrap: wrap;
+    background-color: rgba(11, 9, 9, 0.3);
+    backdrop-filter: blur(10px);
+    padding-top: 2rem;
+    margin-left: 265px;
+    margin-right: 260px;
+}
+.container h3{
+    font-size: 40px;
+    color:white;
+    gap: 1.5rem;
+    align-items: center;
+}
+.container h4{
+    font-size: 25px;
+    color:white;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.container2 {
+    padding-top: 10%;
+    display: inline-block; 
+    text-align: left;
+    padding: 20px;
+    background: linear-gradient(to right, #faf8f8, #9e9e9e );
+    animation: slideIn 2s;
+    color:black;
+    gap: 1.5rem;
+    padding-top: 2rem;
+    position: relative;
+    height: 199px;
+    width: 65.2%;
+}
+.container2 p{
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-right: 300px;
+    padding-top: 3rem;
+    font-weight: bold;
+}
+.image-container {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  .image-container .img{
+    width: 60%;
+    height: 55%;
+  }
+
+.play-button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 70%;
+}
+.play-button:hover {
+    background-color: rgb(0, 62, 85);
+    color: #f5f7f4;
+}
+ .image-container {
+    text-align: right;
+  }
+
+.content{
+    margin-top: 0px;
+    padding: 20px;
+    background-color: rgba(11, 9, 9, 0.3);
+    backdrop-filter: blur(10px);
+    animation: slideIn 2s;
+    align-items: center;
+    flex-wrap: wrap;
+    color:white;
+    gap: 1.5rem;
+    padding-top: 2rem;
+    margin-left: 265px;
+    margin-right: 260px;
+}
+.content p{
+    padding-top: .5rem;
+    font-size: large;
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+}
